@@ -1,0 +1,49 @@
+.App-header {
+  
+  background-size: cover; /* ปรับขนาดรูปภาพให้ครอบคลุมพื้นที่ทั้งหน้าเว็บ */
+  background-repeat: no-repeat; /* ไม่ให้รูปภาพทำซ้ำ */
+  background-attachment: fixed; /* รูปภาพจะเป็นพื้นหลังที่ติดตามหน้าเว็บเมื่อเลื่อน */
+  background-color: rgba(35, 34, 34, 0.7); /* กำหนดสีพื้นหลังและความทึบ*/
+  width: 800px;
+  height: 700px;
+  left: 294px;
+  top: 127px;
+}
+
+.App {
+  background-image: url('https://cdn.pic.in.th/file/picinth/-2f7b50ed175d6f07.jpeg');
+  background-attachment: fixed; /* รูปภาพจะเป็นพื้นหลังที่ติดตามหน้าเว็บเมื่อเลื่อน */
+  background-repeat: no-repeat; /* ไม่ให้รูปภาพทำซ้ำ */
+  background-size: cover; /* ปรับขนาดรูปภาพให้ครอบคลุมพื้นที่ทั้งหน้าเว็บ */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 80px;
+}
+
+.google-login-button {
+  background-color: #f90101; /* เปลี่ยนสีพื้นหลังเป็นสีน้ำเงิน */
+  color: #ffffff; /* เปลี่ยนสีตัวอักษรเป็นสีขาว */
+  width: 600px; /* กำหนดความกว้าง */
+  height: 75px; /* กำหนดความสูง */
+  margin-top: 100px;
+}
+
+.App-button img {
+  margin-right: 10px; /* ระยะห่างด้านขวาของรูปภาพและข้อความ */
+  width: 20px; /* กำหนดขนาดความกว้างของรูปภาพ */
+  height: 20px; /* กำหนดขนาดความสูงของรูปภาพ */
+}
+
+/* img {
+  background-attachment: fixed; /* รูปภาพจะเป็นพื้นหลังที่ติดตามหน้าเว็บเมื่อเลื่อน */
+  /* background-repeat: no-repeat; ไม่ให้รูปภาพทำซ้ำ */
+  /* background-size: cover; ปรับขนาดรูปภาพให้ครอบคลุมพื้นที่ทั้งหน้าเว็บ */
+  /* width: 408px;
+  height: 408px;
+  left: 530px;
+  top: 10px;
+  margin-top: 100px; */
+/* } */ 
